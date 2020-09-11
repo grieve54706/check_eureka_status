@@ -191,6 +191,6 @@ chrome.notifications.onButtonClicked.addListener(function(notificationId, button
     console.log("onButtonClicked: " + buttonIndex);
 
     if(buttonIndex === 0){
-        chrome.windows.create({ "url": "http://172.24.38.11:8760/" });
+        chrome.windows.create({ "url": "http://domail/" });
     }
 });
