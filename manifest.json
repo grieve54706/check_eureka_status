@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Auto Alert When Server Status Change",
+  "description": "Auto Alert When Server Status Change",
+  "version": "1.0.3",
+  "permissions": [
+    "alarms",
+    "notifications",
+    "management",
+    "storage",
+    "http://172.24.38.11:8760/*",
+    "http://localhost:8761/*"
+  ],
+  "browser_action": {
+    "default_icon": "spring.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "spring.png"
+  }
+}
