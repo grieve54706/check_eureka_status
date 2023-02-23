@@ -194,3 +194,5 @@ chrome.notifications.onButtonClicked.addListener(function(notificationId, button
         chrome.windows.create({ "url": "http://domail/" });
     }
 });
+
+console.log("Loaded.");
